@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--    Codigo Caja 1-->
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="25dp">
+
+            <ImageView
+                android:id="@+id/imgItem"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_launcher" />
+
+            android:layout_weight="1"
+                android:src="@drawable/burger3" />
+
+            <TextView
+                android:id="@+id/tvId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/font3"
+                android:gravity="center"
+                android:text="Plantilla"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tvCampo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:gravity="center"
+                android:text="Plantilla"
+                android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvCampo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/font5"
+            android:gravity="center"
+            android:text="Plantilla"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvCampo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font4"
+            android:gravity="center"
+            android:text="Plantilla"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imgFavorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+    </LinearLayout>
+
+</LinearLayout>
